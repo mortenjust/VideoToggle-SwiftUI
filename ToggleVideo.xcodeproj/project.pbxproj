@@ -26,6 +26,7 @@
 		C847048929660CD600995BAD /* MyToggleStylee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyToggleStylee.swift; sourceTree = "<group>"; };
 		C847048B29660CFA00995BAD /* Youtube.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Youtube.swift; sourceTree = "<group>"; };
 		C847048D29660D0D00995BAD /* StarShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarShape.swift; sourceTree = "<group>"; };
+		C847048F2966199500995BAD /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +43,7 @@
 		C847046E29660CB100995BAD = {
 			isa = PBXGroup;
 			children = (
+				C847048F2966199500995BAD /* README.md */,
 				C847047929660CB100995BAD /* ToggleVideo */,
 				C847047829660CB100995BAD /* Products */,
 			);
