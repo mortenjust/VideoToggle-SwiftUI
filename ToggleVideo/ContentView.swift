@@ -1,21 +1,34 @@
 //
 //  ContentView.swift
-//  ToggleVideo
+//  CustomSwitch
 //
-//  Created by Morten Just on 1/4/23.
+//  Created by Pratik on 08/10/22.
 //
 
 import SwiftUI
 
 struct ContentView: View {
+    @State var isLightMode: Bool = false
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        ZStack {
+            background
+            
+            Toggle("", isOn: $isLightMode.animation(.easeInOut))
+                .frame(width: 300, height: 100, alignment: .center)
+                .toggleStyle(MyToggleStyle())
         }
-        .padding()
+        .preferredColorScheme(isLightMode ? .light : .dark)
+    }
+    
+    @ViewBuilder private var background: some View {
+        if isLightMode {
+            Color("lightBg")
+                .ignoresSafeArea()
+        } else {
+            Color("darkBg")
+                .ignoresSafeArea()
+        }
     }
 }
 

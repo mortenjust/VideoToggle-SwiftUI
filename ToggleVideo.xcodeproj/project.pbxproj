@@ -11,6 +11,9 @@
 		C847047D29660CB100995BAD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C847047C29660CB100995BAD /* ContentView.swift */; };
 		C847047F29660CB200995BAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C847047E29660CB200995BAD /* Assets.xcassets */; };
 		C847048229660CB200995BAD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C847048129660CB200995BAD /* Preview Assets.xcassets */; };
+		C847048A29660CD600995BAD /* MyToggleStylee.swift in Sources */ = {isa = PBXBuildFile; fileRef = C847048929660CD600995BAD /* MyToggleStylee.swift */; };
+		C847048C29660CFA00995BAD /* Youtube.swift in Sources */ = {isa = PBXBuildFile; fileRef = C847048B29660CFA00995BAD /* Youtube.swift */; };
+		C847048E29660D0D00995BAD /* StarShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = C847048D29660D0D00995BAD /* StarShape.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +23,9 @@
 		C847047E29660CB200995BAD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C847048129660CB200995BAD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C847048329660CB200995BAD /* ToggleVideo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ToggleVideo.entitlements; sourceTree = "<group>"; };
+		C847048929660CD600995BAD /* MyToggleStylee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyToggleStylee.swift; sourceTree = "<group>"; };
+		C847048B29660CFA00995BAD /* Youtube.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Youtube.swift; sourceTree = "<group>"; };
+		C847048D29660D0D00995BAD /* StarShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarShape.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +59,10 @@
 			isa = PBXGroup;
 			children = (
 				C847047A29660CB100995BAD /* ToggleVideoApp.swift */,
+				C847048B29660CFA00995BAD /* Youtube.swift */,
+				C847048D29660D0D00995BAD /* StarShape.swift */,
 				C847047C29660CB100995BAD /* ContentView.swift */,
+				C847048929660CD600995BAD /* MyToggleStylee.swift */,
 				C847047E29660CB200995BAD /* Assets.xcassets */,
 				C847048329660CB200995BAD /* ToggleVideo.entitlements */,
 				C847048029660CB200995BAD /* Preview Content */,
@@ -139,7 +148,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C847048E29660D0D00995BAD /* StarShape.swift in Sources */,
 				C847047D29660CB100995BAD /* ContentView.swift in Sources */,
+				C847048C29660CFA00995BAD /* Youtube.swift in Sources */,
+				C847048A29660CD600995BAD /* MyToggleStylee.swift in Sources */,
 				C847047B29660CB100995BAD /* ToggleVideoApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
